@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+article header h1,
+h2,
+h3,
+h4,
+p {
+  font-family: cursive;
+}
+
+footer p {
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  color: blue;
+  background-color: beige;
+}
+h2 {
+  color: rgb(17, 0, 255);
+  background-color: green;
+}
+
+h3 + p + h2 {
+  font-size: 15px;
+  color: blueviolet;
+
+  font-weight: 200;
+  font-style: oblique;
+}
+p {
+  font-size: 22px;
+  color: aqua;
+  background-color: black;
+
+  line-height: 1.1;
+}
+
+#header {
+  font-family: fantasy;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.author {
+  font-family: fantasy;
+}
+.related {
+  list-style: none;
+}
+li:first-child {
+  font-size: 15px;
+  color: blueviolet;
+
+  font-weight: 200;
+  font-style: oblique;
+}
+
+nav a:link {
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+  /* display: block; */
+  background-color: aquamarine;
+  font-size: large;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bolder;
+}
+
+a:link {
+  color: blueviolet;
+}
+
+a:hover {
+  color: pink;
+}
+
+a:visited {
+  color: lime;
+}
+
+.main-header {
+  padding: 20px;
+  background-color: aqua;
+}
+
+.container {
+  width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+li:last-child {
+  margin: 20px;
+}
+
+.post-img {
+  width: 10%;
+  height: auto;
+}
+Button {
+  size: 20px;
+  background-color: rgb(81, 255, 0);
+  font-size: xx-large;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+h1::first-letter {
+  font-style: normal;
+}
+
+article {
+  background-color: blue;
+  float: left;
+  width: 966px;
+}
+aside {
+  background-color: rgb(238, 255, 0);
+  float: right;
+  width: 400px;
+  box-sizing: border-box;
+  padding: 40px 50px;
+}
+footer {
+  background-color: rgb(255, 0, 234);
+}
